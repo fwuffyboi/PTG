@@ -1,7 +1,6 @@
 def logThis(logText: str):
     import time
 
-
     with open("LOG.log", "a") as log:
         log.write(f"{str(time.time())}, --- , {logText}")
         log.close()
@@ -16,8 +15,8 @@ def syncLog(serverIP, serverPORT):
         s.connect((serverIP, serverPORT))
         s.send(log.encode())
 
-        recieved = s.recv(4096)
+        received = s.recv(4096)
 
-        while (len(recieved) > 0):
-            print(recieved)
-            recieved = s.recv(4096)
+        while len(received) > 0:
+            print(received)
+            received = s.recv(4096)
