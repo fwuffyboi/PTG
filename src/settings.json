@@ -4,6 +4,9 @@
     "geocoderAPIKey": "",
     "RECOGNITION_API_KEY": "",
 
+    "___MEDIA_FOLDER_LOCATION___": "___MEDIA_FOLDER_LOCATION___",
+    "media_folder_location": "I:\\PROGRAMMING\\currentProjects\\PSA-001\\media",
+
     "___EXTERNAL_SETTINGS_GO_BELOW___": "___EXTERNAL_SETTINGS_GO_BELOW___",
     "language": "en"
 }

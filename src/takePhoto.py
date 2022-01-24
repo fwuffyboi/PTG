@@ -1,5 +1,5 @@
 def takePhoto(photoName):
-    import pygame
+    import json
     import pygame.camera
     import os
     
@@ -22,7 +22,14 @@ def takePhoto(photoName):
         image = cam.get_image()
     
         # saving the image
-        os.chdir("/media")
+        with open('settings.json', 'r') as settingsFile:
+            # understand settings data
+            data = settingsFile.read()
+            obj = json.loads(data)
+
+            mediaFolderLocation = str(obj['media_folder_location'])
+
+        os.chdir(mediaFolderLocation)
         pygame.image.save(image, photoName)
     
     # if camera is not detected the moving to else part
