@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7942f9-8f37-4a60-97b4-d42b6a2e21d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facialRecognition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getWeather.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/takePhoto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/access.py" beforeDir="false" afterPath="$PROJECT_DIR$/access.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getWeather.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/getWeather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media/faceToRec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/takePhoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/takePhoto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\PROGRAMMING\currentProjects\PSA-001" />
       <recent name="I:\PROGRAMMING\currentProjects\PSA-001\src" />
     </key>
   </component>

@@ -4,7 +4,7 @@ def get_weather_location(givenLocation: str):
         import sys, time
         import requests, flask
 
-        with open('settings.json', 'r') as settingsFile:
+        with open('../settings.json', 'r') as settingsFile:
             # understand settings data
             data = settingsFile.read()
             obj = json.loads(data)
@@ -18,7 +18,7 @@ def get_weather_location(givenLocation: str):
             location_lat = location[1]
             location_lng = location[0]
 
-            with open('settings.json', 'r') as settingsFile:
+            with open('../settings.json', 'r') as settingsFile:
                 # understand data (bruh)
                 data = settingsFile.read()
                 # parse file

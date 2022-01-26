@@ -22,7 +22,7 @@ def takePhoto(photoName):
         image = cam.get_image()
     
         # saving the image
-        with open('settings.json', 'r') as settingsFile:
+        with open('../settings.json', 'r') as settingsFile:
             # understand settings data
             data = settingsFile.read()
             obj = json.loads(data)
