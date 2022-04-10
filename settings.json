@@ -1,13 +1,17 @@
 {
-    "___API_KEYS_GO_BELOW___": "___API_KEYS_GO_BELOW___",
-    "OWMAPIKey": "",
-    "geocoderAPIKey": "",
-    "RECOGNITION_API_KEY": "",
+	"robotName": "Ash",
+	"robotLanguages": [
+		"english",
+		"swedish"
+	],
 
-    "___MEDIA_FOLDER_LOCATION___": "___MEDIA_FOLDER_LOCATION___",
-    "media_folder_location": "I:\\PROGRAMMING\\currentProjects\\PSA-001\\src\\media",
-    "src_folder_location": "I:\\PROGRAMMING\\currentProjects\\PSA-001\\src",
+	"openWeatherMapAPIKey": "",
 
-    "___EXTERNAL_SETTINGS_GO_BELOW___": "___EXTERNAL_SETTINGS_GO_BELOW___",
-    "language": "en"
+	"preferGoogleTranslate": null,
+	"preferDuckDuckGoTranslations": null,
+
+	"preferredAPILanguage": "en",
+	"preferredUILanguage": "en",
+
+	"operatingSystem": ""
 }
